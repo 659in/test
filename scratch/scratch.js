@@ -24,7 +24,7 @@ var fullscreen = navigator.standalone ||
     window.matchMedia('(max-device-width: 800px) and (max-device-height: 800px)').matches;
 
 window.onload = function() {
-    var url = "https://github.com/659in/test/blob/main/scratch/Scratch28May05.image";
+    var url = "https://github.com/659in/test/raw/main/scratch/Scratch28May05.image";
     SqueakJS.runSqueak(url, sqCanvas, {
         appName: "Scratch",
         fullscreen: fullscreen,
